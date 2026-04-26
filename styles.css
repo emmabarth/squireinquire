@@ -39,6 +39,14 @@ h2 {
     padding: 24px;
 }
 
+h3 {
+    color: white;
+    font-family: monospace;
+    font-style: bold;
+    font-size: 16px;
+    margin: 0px;
+}
+
 /* ------- SIDE MENU STYLES ----------- */
 
 /* aside */
@@ -154,10 +162,11 @@ font-size: 14pt;
 
 /* ------- MAIN STYLES ----------- */
 
-.article {
+article {
     background-color:black;
     flex-grow: 1 100%;
     padding: 0px;
+    margin: 0 30px 60px 30px;
 }
 
 .flex-container {
@@ -165,7 +174,9 @@ font-size: 14pt;
   width: 100%; /* Spans the window width */
 }
 
+
 .hero-image {
+    flex-grow: 1 100%;
     width: 100%;     /* Scales to container width */
     height: auto;    /* Keeps aspect ratio */
     min-width: 0;    /* Allows shrinking in flex context */
@@ -177,6 +188,25 @@ font-size: 14pt;
     top: 0px;
     left: 0px;
 }
+
+.flex-grid {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.flex-grid > * {
+    padding: 1rem;
+    margin: 12px;
+}
+
+.flex-grid > * p {
+    margin: 0px;
+    
+}
+
+
 
 /* ------- FOOTER STYLES ----------- */
 
