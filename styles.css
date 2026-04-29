@@ -212,6 +212,23 @@ article {
     
 }
 
+.flex-grid-2 {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.flex-grid-2 > * {
+    padding: 1rem;
+    margin-left: 12px;
+    margin-right: 12px;}
+
+.flex-grid-2 > * p {
+    margin: 0px;
+    
+}
+
 /* .flex-grid > * img {
     margin: 12px;
     
