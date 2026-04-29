@@ -36,6 +36,10 @@ h2 {
     font-style: bold;
     font-size: 24px;
     margin: 0;
+    padding: 26px 34px 16px 0;
+}
+
+.h2 {
     padding: 26px 34px 6px 59px;
 }
 
@@ -271,7 +275,7 @@ a:active {
 model-viewer {
   width: 100%;
   height: 90%;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 
