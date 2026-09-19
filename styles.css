@@ -41,7 +41,7 @@ h2 {
     color: white;
     font-family: monospace;
     font-style: bold;
-    font-size: 24px;
+    font-size: 36px;
     margin: 0;
     padding: 26px 34px 16px 0;
 }
@@ -54,7 +54,7 @@ h3 {
     color: white;
     font-family: monospace;
     font-style: bold;
-    font-size: 16px;
+    font-size: 20px;
     margin: 0px;
 }
 
@@ -243,10 +243,8 @@ article {
 
 /*  Rollover image styles  */
   .figure {
-    margin: 12px;
+    /* margin: 12px; */
     position: relative;
-    height: 200px; /* can be omitted for a regular non-lazy image */
-    width: auto;
     max-width: 100%;
   }
 
@@ -293,6 +291,29 @@ a:active {
 }
 
 /* ------- MORE STYLES ----------- */
+.interview {
+    max-width: 500px;
+    padding-top: 25px;
+}
+
+/*---------------------- IMG STYLES ------------------- */
+
+.z1 {
+    width: 85%;
+    height: auto;
+}
+
+.z2 {
+    width: 800px;
+    height: auto;
+    margin: 5px 0px 5px 0px;
+    display: block;
+}
+
+.z3 {
+    width: 300px;
+    height: auto;
+}
 
 /*------------AR BS */
 
