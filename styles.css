@@ -315,7 +315,12 @@ a:active {
     height: auto;
 }
 
-/*------------AR BS */
+.pg { /* pg = print grid */
+    height: 300px;
+    width: auto;
+}
+
+/*------------AR BS ------------------ */
 
 model-viewer {
   width: 100%;
